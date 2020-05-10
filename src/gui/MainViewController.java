@@ -63,6 +63,7 @@ public class MainViewController implements Initializable{
 			
 		} catch (IOException e) {
 			Alerts.showAlert(null, null, e.getMessage(), AlertType.ERROR);
+			System.out.println(e.getMessage());
 		} 
 	}
 
